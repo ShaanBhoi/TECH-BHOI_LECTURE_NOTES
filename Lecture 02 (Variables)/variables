@@ -1,0 +1,25 @@
+## variables
+
+## variable_name = value 
+## print(paramater)
+##last class
+
+## print("Shaan Bhoi i like to climb rocks, and my fav num is : " , 789)
+myName = "Rishi"
+myAge=15
+myActivity= "i like to play basketball"
+
+print (myName)
+print (myAge)
+
+myAge = 38
+print ("My name is Rishi i am 15 years old,and i like to play basketball")
+print("i like to play basketball with my friends")
+
+print("My name is",myName,"i am",myAge, "years old,and",myActivity)
+print(myActivity, "with my friends")
+
+myAge = 15
+myActivity = "play videogames"
+print("My name is",myName,"i am",myAge, "years old,and",myActivity)
+print(myActivity, "with my friends")
