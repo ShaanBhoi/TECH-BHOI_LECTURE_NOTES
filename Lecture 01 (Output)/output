@@ -1,8 +1,0 @@
-##my name is shaan 
-### OUTPUTS LECTURE 00
-## the name of our function is print()
-
-### paramaters = ingredients = arguments
-print("Shaan Bhoi i like to climb rocks, and my fav num is : " , 789)
-print ("Rishi Collins",'I Like to go out')
-print ("Test")
