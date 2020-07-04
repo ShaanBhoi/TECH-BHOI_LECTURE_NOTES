@@ -23,3 +23,11 @@ myAge = 15
 myActivity = "play videogames"
 print("My name is",myName,"i am",myAge, "years old,and",myActivity)
 print(myActivity, "with my friends")
+
+## quiz
+likes = 43
+likes = 71
+Likes = likes =38
+
+print(Likes)
+print(likes)
