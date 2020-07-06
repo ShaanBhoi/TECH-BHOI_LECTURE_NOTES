@@ -4,10 +4,10 @@ Shaan Bhoi is inviting you to a scheduled Zoom meeting.
 Topic: Shaan Bhoi's Personal Meeting Room
 
 Join Zoom Meeting
-https://us04web.zoom.us/j/3851612429?pwd=YUdMQXdoV2QxMFJXTENJNXRJU2FrQT09
+https://us04web.zoom.us/j/3851612429?pwd=ZEJsRDZKQUxZbHZkTlp5NjE5VXlTZz09
 
 Meeting ID: 385 161 2429
-Password: Python
+Password: 8-Week
 
 
 email:
