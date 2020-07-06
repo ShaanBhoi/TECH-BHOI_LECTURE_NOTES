@@ -3,7 +3,7 @@
 ## how to check the type of the value stored in a variable
 ## type(Variable_name)
 myName = "John Doe"
-type(myName)
+print(myName,"is of type",type(myName))
 ############################################################################
 ##What are the main types?
 
@@ -12,14 +12,14 @@ type(myName)
 
 ## integers are whole numbers
 myAge = 10
-type(myAge)
+print(myAge,"is of type", type(myAge))
 ##floats have decimal places
 myPi = 3.14
-type(myPi)
+print(myPi, "is of type", type (myPi))
 
 #Quiz Time
 '''
-Set an integer as the value of x
+1. Set an integer as the value of x
 
 x = ________
 type(x)
@@ -28,7 +28,7 @@ a) 3.4
 b) 5.67
 c) 832749834
 
-Set a float as the value of y
+2. Set a float as the value of y
 
 x = ________
 type(y)
@@ -47,14 +47,14 @@ c) Numeric type
 
 ##################################
 
-##we have two other data tyoes
+##we have two other data types
 ## Boolean 
 
 imHappy = True
-type(imHappy)
+##type(imHappy)
 
 imSad = False
-type(imSad)
+##type(imSad)
 
 ## strings
 
