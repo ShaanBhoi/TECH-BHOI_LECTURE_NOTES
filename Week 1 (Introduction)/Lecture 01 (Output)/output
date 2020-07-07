@@ -6,3 +6,22 @@
 print("Shaan Bhoi i like to climb rocks, and my fav num is : " , 789)
 print ("Rishi Collins",'I Like to go out')
 print ("Test")
+
+
+######
+### all the print() function and give it your name inside quotes
+#print("My name is Rohan Sahota and I am 17 years old. My hobbies are technology and basketball.")
+
+
+#print("My name is shaan","my favourite number is : ",676)
+
+### your name, wher u are living, two movies u like, and ur favourite baskteball player
+## using one line or multiple, if using multiple call the function each line
+print("MY INFROMATION: ")
+print("My name is Rohan","I live in Mississauga")
+print("MY FAVOURITES: ")
+print("my favourite movie is Inception an the runner up is the Matrix","and my favourite basketball player is Lebron James")
+
+
+
+

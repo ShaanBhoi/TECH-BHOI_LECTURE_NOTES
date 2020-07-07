@@ -82,3 +82,6 @@ c) movie = 'Napolean Dynamite'
 
 ############################################################################
 
+myFloat = 17.998437
+myInt = int(myFloat)
+print(myFloat,myInt)

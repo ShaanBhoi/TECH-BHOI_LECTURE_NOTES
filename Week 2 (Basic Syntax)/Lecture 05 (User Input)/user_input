@@ -1,0 +1,15 @@
+## user input
+
+input("your question here : ")
+
+## storing answer into a variable 
+
+userName = input("What is your name ? : ")
+
+print(userName)
+
+## type conversion
+
+myAge = int(input("What is your age? : "))
+
+## to use a float or int if we are unsure of a numeric input? Why?

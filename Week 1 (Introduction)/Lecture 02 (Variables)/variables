@@ -31,3 +31,77 @@ Likes = likes =38
 
 print(Likes)
 print(likes)
+##############
+
+
+### your name, wher u are living, two movies u like, and ur favourite baskteball player
+## using one line or multiple, if using multiple call the function each line
+print("\n\n\nHard-Coded\n\n\n")
+print("MY INFROMATION: ")
+print("My name is Rohan","I live in Mississauga")
+print("MY FAVOURITES: ")
+print("my favourite movie is Inception and my second favourite movie is the Matrix","and my favourite basketball player is Lebron James")
+
+print("\n\n\nWith Variables\n\n\n")
+myName = "Rohan"
+myCity = "Mississauga"
+myFirstMovie = "Inception"
+mySecondMovie = "The Matrix"
+myFavBBAll = "Lebron James"
+print("MY INFORMATION:")
+print("My name is",myName,"I live in",myCity)
+print("MY FAVOURITES: ")
+print("my favourite movie is ",myFirstMovie,"and my second favourite movie is",mySecondMovie,"and my favourite basketball player is",myFavBBAll)
+
+
+print("\n\n\nWith Changed Variables\n\n\n")
+myName = "Shaan"
+myCity = "the best city"
+myFirstMovie = "Ex-Machina"
+mySecondMovie = "Inception"
+myFavBBAll = "Jordan"
+print("MY INFORMATION:")
+print("My name is",myName,"I live in",myCity)
+print("MY FAVOURITES: ")
+print("my favourite movie is ",myFirstMovie,"and my second favourite movie is",mySecondMovie,"and my favourite basketball player is",myFavBBAll)
+
+
+
+
+
+'''
+
+## variables
+
+## variable_name = value 
+## print(paramater)
+##last class
+
+## print("Shaan Bhoi i like to climb rocks, and my fav num is : " , 789)
+myName = "Rishi"
+myAge=15
+myActivity= "i like to play basketball"
+
+print (myName)
+print (myAge)
+
+myAge = 38
+print ("My name is Rishi i am 15 years old,and i like to play basketball")
+print("i like to play basketball with my friends")
+
+print("My name is",myName,"i am",myAge, "years old,and",myActivity)
+print(myActivity, "with my friends")
+
+myAge = 15
+myActivity = "play videogames"
+print("My name is",myName,"i am",myAge, "years old,and",myActivity)
+print(myActivity, "with my friends")
+
+## quiz
+likes = 43
+likes = 71
+Likes = likes =38
+
+print(Likes)
+print(likes)
+'''
