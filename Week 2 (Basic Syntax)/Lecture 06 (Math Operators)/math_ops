@@ -154,3 +154,13 @@ bool2 = True ## counts for a value of 0
 resBool = bool1 % bool2
 print("The mod of the booleans",bool1,"&",bool2,"is: ", resBool)
 
+print("\n\n\n\n\n\n\n\n\n\n\n\n\nAs an exercise before monday's class, see what if we mix data types, in all possible combinations of operations, which are able to be done, do you see a pattern?\nthis should take about 45 mins to do") 
+
+data1 = ["Firstname", 10 , 3.14 , True]
+data2 = ["Lastname", 2 , 3.0 , False]
+ops = ["+","-","/","//","%"]
+
+for i in data1:
+	for j in data2:
+		for k in ops:
+			print(i,k,j)
