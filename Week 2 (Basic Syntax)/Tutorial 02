@@ -9,20 +9,22 @@
 ##  draw the big boxes and show me what is inside of them
 ##  predict the output, and the datatype 
 
+
 ##  Question 1
-first = 5
-second = 10
-result = first*2
+first = "5"
+second = 12
+result = second*first
 
-print(result)
-result = result + second
-print(result)
-
+print(result,"is of data type",type(result))
+result = result + str(second)
+print(result,"is of data type",type(result))
+intResult = int(result)
+print(intResult,"is of data type",type(intResult))
 
 ##  Question 2
-spider = "Spider"
-bat = 'Bat'
-man = "man"
+spider = "Spider"*2
+bat = 'Bat'+str(int(10))
+man = "Wo"+"man"
 
 manIam = spider + bat + man
 
@@ -35,8 +37,9 @@ plus = " + "
 six = "6 = "
 ten = four+plus+six
 ans = " 10"
+res = ten+ans
+print(res)
 
-print(ten+ans)
 
 
 ###############
@@ -63,6 +66,8 @@ ten = six-5
 
 print(ten+four)
 
+
+
 ##  Question 7 - MUL
 two = 2
 four = 4
@@ -74,5 +79,16 @@ twelve = 0
 print(twelve)
 
 
+
+print("\n\n\n\n\n\n\n\n\n\n\n\n\nAs an exercise before monday's class, see what if we mix data types, in all possible combinations of operations, which are able to be done, do you see a pattern?\nthis should take about 45 mins to do") 
+
+data1 = ["Firstname", 10 , 3.14 , True]
+data2 = ["Lastname", 2 , 3.0 , False]
+ops = ["+","-","/","//","%"]
+
+for i in data1:
+	for j in data2:
+		for k in ops:
+			print(i,k,j)
 
 
