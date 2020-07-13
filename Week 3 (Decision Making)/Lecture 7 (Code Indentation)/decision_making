@@ -70,3 +70,11 @@ _____:
 
 
 '''
+
+isHungry = True
+
+if isHungry:
+	print("i can haz cheeseburger")
+
+else:
+	print("find a new meme")
