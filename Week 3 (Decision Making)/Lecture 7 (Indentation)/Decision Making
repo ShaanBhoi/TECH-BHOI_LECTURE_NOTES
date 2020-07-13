@@ -1,0 +1,72 @@
+'''
+Decision making
+
+Say you ask to borrow a friends phone, and you accidentally drop it and the screen cracks. HOW SAD!!
+
+Now you have to replace ur friends phone, but say you only have 400$ in your account. 
+
+We need do decide now what phone we are going to get him. It would be nice to get him an iphone (like they had), but we also have the possibility of getting him an andrid phone. 
+
+Assessing the situtation, we can safely say that we will buy the Iphone if it is less than 400$, otherwise we will get the android.
+
+We can model our problem as follows:
+
+if the price of the phone is less than 400$, we will buy the iphone.
+Otherwise(else)
+we will buy the android
+_________________________
+translating our problem into code:
+
+writing the problem in code is very similar to how we do it in english...
+
+if price < 400:
+	print("we wil buy the iphone")
+else:
+	print("we will buy the andriod")
+
+_________________________
+how conditions are written
+
+if [condition]:
+	##when condition is True
+	do this
+else:
+	##any case ouside of condition being True
+	do this
+_________________________
+
+lets see this in action:
+## try it 3 times, 350,400,450
+price = int(input("How much is the phone?: $"))
+
+if price < 400:
+	print("we wil buy the iphone")
+else:
+	print("we will buy the andriod")
+
+_________________
+Quiz:
+
+Which of the following is an example of conditional decision making?
+
+a) If i clean my room, i will play outside, otherwise i will stay inside and do my chores 
+b) i will play videogames with my friends later today 
+c) i can haz cheeseburger
+
+_________________
+
+fill in the blank
+
+We want to model the legal drinking age across the globe. The age to be able to drink alcohlol internationally is 21.
+There is a keyword missing, what is it?
+What is the expected output?
+age= 22
+if age >= 21:
+	print("I am of international drinking age")
+
+_____:
+	print("I need to wait a few years until i am of international drinking age")
+
+
+
+'''
