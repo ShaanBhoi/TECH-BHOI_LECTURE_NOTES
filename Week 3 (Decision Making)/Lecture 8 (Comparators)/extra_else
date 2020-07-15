@@ -1,0 +1,26 @@
+## if else. 
+
+
+myGrade = float(input("What is your grade? : "))
+'''
+if myGrade >= 90:
+	print("my grade is A+")
+else:
+	print("my brown parents think i failed")
+'''
+## if elif 
+'''
+if myGrade >= 90:
+	print("my grade is A+")
+elif (myGrade >=80) and (myGrade<90):
+	print("my brown parents think i failed becasue i got a B+")
+
+'''
+### if elif else 
+
+if myGrade >= 90:
+	print("my grade is A+")
+elif (myGrade >=80) and (myGrade<90):
+	print("my brown parents think im a dissappointment becasue i got a B+")
+else:
+	print("my brown parents will disown me for not being a doctor with straight A's ")

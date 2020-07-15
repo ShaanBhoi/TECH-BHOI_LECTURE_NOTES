@@ -1,78 +1,45 @@
 '''
-translating our problem into code:
+##Comparators
 
-writing the problem in code is very similar to how we do it in english...
+In programming, often times we need to compara data with eachother in order to make a decision on what to do next. a real world example of this is say we are putting on socks in the morning, we reach into our sock drawer and grab any two socks. In order for us to not look like rushed out of the house, we need to compare the two socks and see if they are the same. if they are the same, then we will put on both socks, otherwise we will keep searching until we find the matching sock, to make a complete pair. 
 
-if price < 400:
-	print("we wil buy the iphone")
+
+
+There are 3 main comparators:
+greater than >
+less than <
+exactly equal == 
+
+_______
+example:
+
+leftSock = "grey"
+rightSock = "black"
+
+if leftSock == rightSock:
+	print("I can leave the house, becasue i have matching socks")
 else:
-	print("we will buy the android")
+	print("i must keep searching for a matching pair")
 
-_________________________
-how conditions are written
+___________
 
-if [condition]:
-	##when condition is True
-	do this
-else:
-	##any case ouside of condition being True
-	do this
-_________________________
-
-lets see this in action:
-## try it 3 times, 350,400,450
-
+When comparing, oftentimes we will be comparing the value stored inside of a variable. We can compare variable to variable, or variable to any data type directly.
+______
 Quiz:
 
-Which of the following is an example of conditional decision making?
+What is the appropriate comparator operator to compare things to see if they are exactly eqqual?
 
-a) If i clean my room, i will play outside, otherwise i will stay inside and do my chores 
-b) i will play videogames with my friends later today 
-c) i can haz cheeseburger
-
-
+a) =
+b) == 
+c) < >
 
 
-price = float(input("How much is the phone?: $"))
+'''
 
-if price <= 400:
-	print("we will buy the iphone")
-	print("Because it is equivalent or less than the money we have")
+leftSock = "grey"
+
+
+if leftSock == "grey":
+	print("I can leave the house, becasue i have matching socks")
 else:
-	print("we will buy the android")
-	print("Because the iphone is too expensive")
-
-	'''
-
- #a) If i clean my room, i will play outside, otherwise i will stay inside and do my chores
-
-'''
-isRoomClean = True
-
-if isRoomClean:
-    print ("I will go and play outside")
-	print ("Because I cleaned my room")
-
-else:
-    print ('I will stay inside and do my chores')
-    print ("because I did not clean my room")
-'''
-'''
-#b) i will play videogames with my friends later today , lets say we have a variable calld isLaterToday and it stores a boolean
-isLaterToday = True
-if isLaterToday:
-	print("I will play videogames with my friends")
-	print("Because it is later today")
-	
-	
-else:	
-	print("I will not play videogames with my friends")
-'''
-## c) i can haz cheeseburger
-isHungry = False
-
-if isHungry:
-	print("i can haz cheeseburger")
-
-else:
-	print("find a new meme")//
+	print("i must keep searching for a matching pair")
