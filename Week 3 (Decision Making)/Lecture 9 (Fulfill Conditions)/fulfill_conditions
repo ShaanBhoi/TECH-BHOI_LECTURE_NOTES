@@ -1,0 +1,167 @@
+'''
+## fulfill multiple conditions.
+
+## wahat are multiple conditions?
+
+A realworld example of fulfilling multiple conditions, if when you have more than one condition that needs to be satisfied before doing a certain action. Say you arent allowed to go to the party friday night unless you finish your homework and did all your chores for the week. Can you think of an example?
+
+The two conditions are:
+
+1. Homeworkd needs to be finished 
+AND
+2. All the chores are done 
+	2.1 trash is taken out
+	2.2 room is clean
+	2.3 cleaned bathroom
+Test this code, twice with each of the conditions being fulfilled, second with both conditions fulfilled.
+	
+_____________
+QUIZ
+Insert the appropriate keyword to fulfill both conditions in the following block of code:
+
+myName = "Shaan Bhoi"
+myClassCancelled = False
+
+if myName == "Shaan Bhoi" ____ !myClassCancelled:
+	print("i am the professor")
+
+elif myName != "Shaan Bhoi" ____ !myClassCancelled:
+	print("i am the student")
+
+_____:
+	print(i am neiher the professor, nor the student)
+
+a) and,or , otherwise
+b) if , else , and
+c) and, and ,else
+
+____________________
+
+Quiz 2 
+
+Which is true for the AND keyword?
+
+a) atleast one has to be true 
+b) all must be true
+c) two must be true
+
+
+
+
+myList = [True,False]
+
+print("\t ***AND***")
+for i in myList:
+	for j in myList:
+		print(i,"and",j,"is: ",i and j)
+
+print("\t ***OR***")
+for i in myList:
+	for j in myList:
+		print(i,"or",j,"is: ",i or j)
+
+		myList = [True,False]
+print("\t ***AND***")
+for i in myList:
+	for j in myList:
+		for k in myList:
+			print(i,"and",j,"and",k,"is: ", i and j and k )
+		
+print("\t ***OR***")
+for i in myList:
+	for j in myList:
+		for k in myList:
+			print(i,"or",j,"or",k,"is: ", i or j or k )
+'''
+
+
+
+'''
+## fulfill multiple conditions.
+
+## wahat are multiple conditions?
+
+A realworld example of fulfilling multiple conditions, if when you have more than one condition that needs to be satisfied before doing a certain action. Say you arent allowed to go to the party friday night unless you finish your homework and did all your chores for the week. Can you think of an example?
+
+The two conditions are:
+
+1. Homeworkd needs to be finished 
+AND
+2. All the chores are done 
+	
+
+Test this code, twice with each of the conditions being fulfilled, second with both conditions fulfilled.
+
+isHomeworkFinished = True
+isChoresComplete = True
+
+if (isChoresComplete == True ) and (isHomeworkFinished == True):
+	print("i can go to the party, since i did my homework and chores")
+else:
+	print("i cant go to the party , since i did not do both my homework and chores. ")
+
+
+_______________________________________________________________________________________________
+QUIZ
+Insert the appropriate keyword to fulfill both conditions in the following block of code:
+
+myName = "Shaan Bhoi"
+myClassCancelled = False
+
+if myName == "Shaan Bhoi" ____ not myClassCancelled:
+	print("i am the professor")
+
+elif myName != "Shaan Bhoi" ____ not myClassCancelled:
+	print("i am the student")
+
+_____:
+	print(i am neiher the professor, nor the student)
+
+a) and,or , otherwise
+b) if , else , and
+c) and, and ,else
+
+____________________
+
+Quiz 2 
+
+Which is true for the AND keyword?
+
+a) atleast one has to be true 
+b) all must be true
+c) two must be true
+
+'''
+
+## movies,arace,popcorn
+
+isGoingToMovies = False
+isGoingToArcade = False
+isGettingPopcorn = True
+energyLevel = 2
+
+if (isGoingToMovies == True) and (isGettingPopcorn == True):
+	print("youre probably on a date, or hungry")
+
+else:
+	print("gonna stay home")
+
+if (energyLevel >= 6) or ((isGettingPopcorn == False) or isGoingToArcade):
+	print("we are gonna smash buttons at the arcade for highscores")
+
+else: 
+	print("play videogames at home")
+
+
+
+myName = "rishi "
+myClassCancelled = False
+
+if (myName == "Shaan Bhoi") and (not myClassCancelled): ## false and true -> False
+	print("i am the professor")
+
+elif (myName != "Shaan Bhoi") and (not myClassCancelled): ## true and true -> True
+	print("i am the student")
+
+else:	## every other mix of conditions 
+	print("i am neiher the professor, nor the student")
