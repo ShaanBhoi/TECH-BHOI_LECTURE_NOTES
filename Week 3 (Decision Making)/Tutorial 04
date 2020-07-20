@@ -46,3 +46,154 @@ else:
 ## implement if [40,50) u have an E, output that a student has opportunity to take a supplemental exam
 ## implement F grade for (1,40)
 ## implement ABS for absent [0,1]
+___________________________________________
+
+################
+## question 1 ##
+################
+## create an if statement that checks a variable is exactly equal to the value stored in the variable, create an output for this
+
+
+'''
+myName = "Rishi"
+myName = True
+if myName == True :
+    print ("my name is ",True)
+'''
+
+
+
+################
+## question 2 ##
+################
+## expand q1 to have an else statement
+'''
+myName = True
+myName = "Rishi"
+
+if myName == True :
+    print ("my name is ",True)
+else:
+    print ("my name is not True, thus my name is storing the value of",myName)
+'''
+
+	
+################
+## question 3 ##
+################
+## create an if condition that compares two objects (not using exactly equals), have an output, create an elif statement with two different objects (not using ==), have an output, create an else statement with an output.
+myStr = "dsfdsfsdfdsf"
+myNum1 = 5
+
+## <=,!=,>=,>,<, 
+
+if (myNum1 <= 3) and (myStr == "me"): # True and True -> True
+    print(myNum1,"is less than or equal to 3 therefore and ",myStr, "is exacyly equal to me")
+elif (myNum1 !=3) and (myStr !="me") :
+    print (myNum1,"does not equal 3 and ",myStr ,"does not equal me")
+
+
+################
+## question 4 ##
+################
+## create a letter grade calculator, by using multiple elif statements with multiple conditions and printing appropriate information. grade is given by input A:[80,inf),B:[70,80),C:[60,70),D:[50,60),F:[-inf,50)
+
+
+################
+## question 5 ##
+################
+## expand q4 to have +/- for increments of 5 
+## implement if [40,50) u have an E, output that a student has opportunity to take a supplemental exam
+## implement F grade for (1,40)
+## implement ABS for absent [0,1]
+
+
+
+
+################
+## question 1 ##
+################
+## create an if statement that checks a variable is exactly equal to the value stored in the variable, create an output for this
+
+################
+## question 2 ##
+################
+## expand q1 to have an else statement
+
+################
+## question 3 ##
+################
+## create an if condition that compares two objects (not using exactly equals) amongst two conditions, have an output, create an elif statement with two different objects (not using ==) amongst two conditions, have an output, create an else statement with an output.
+dBiker1 = 6.20
+dBiker2 = 4.56
+dBiker3 = 5.6
+dBiker4 = 3.14
+if (dBiker1 > dBiker2) and ((dBiker1 > dBiker3)and (dBiker1 > dBiker4)):## True and (True and True) - > True and True - > True 
+	print("Biker 1 has went the furthest\n biker 1 has went further than biker 2 by",dBiker1 - dBiker2,"km")	
+elif (dBiker3 < dBiker4):
+	print("Biker 4 went futher than Biker 3 by",dBiker4 - dBiker3,"km")
+	
+
+
+
+
+
+
+
+################
+## question 4 ##
+################
+## create a letter grade calculator, by using multiple elif statements with multiple conditions and printing appropriate information. grade is given by input A:[80,inf),B:[70,80),C:[60,70),D:[50,60),F:[-inf,50)
+'''
+inputGrade = float(input("What was your grade: "))
+if(inputGrade>=80):
+	print("You got an A")
+elif(inputGrade>=70)and(inputGrade<80):
+	print("You got a B")
+elif(inputGrade>=60)and(inputGrade<70):
+	print("You got a C")
+elif(inputGrade>=50)and(inputGrade<60):
+	print("You got a D")
+elif(inputGrade<50):
+	print("You got a F")
+	'''
+
+
+
+################
+## question 5 ##
+################
+## expand q4 to have +/-(only for A) for increments of 5 (does not apply to A , A+ 90-100 inclusive both ends, A is from [85-90), A- is[80,85)
+## implement if [40,50) u have an E, output that a student has opportunity to take a supplemental exam
+## implement F grade for (1,40)
+## implement ABS for absent [0,1]
+
+inputGrade = float(input("What was your grade: "))
+if(inputGrade>=80):
+	if (inputGrade >=90):
+		print("You got an A+")
+	elif(inputGrade>=85) and (inputGrade<90):
+		print("You got an A")
+	elif(inputGrade<85):
+		print("You got an A-")
+elif(inputGrade>=70)and(inputGrade<80):
+	if (inputGrade>75):
+		print("You got an B+")
+	elif(inputGrade<75):
+		print("You got an B")
+elif(inputGrade>=60)and(inputGrade<70):
+	if (inputGrade>=65):
+		print("You got an C+")
+	elif(inputGrade<65):
+		print("You got an C")	
+elif(inputGrade>=50)and(inputGrade<60):
+	if (inputGrade>=55):
+		print("You got an C+")
+	else:
+		print("You got an C")
+elif(inputGrade>=40)and(inputGrade<50):
+	print("You got a E")
+elif(inputGrade<40)and(inputGrade>1):
+	print("You got an F")
+elif(inputGrade<=1):
+	print("You got an ABS")
