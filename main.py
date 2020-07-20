@@ -1,3 +1,5 @@
+'''
+
 Now that we know all of our 4 main data types like the back of our hand...
 
 
@@ -55,3 +57,44 @@ colours = ("strawberry red' , peach pink : "sundown orange"],
 ___________
 
 Use a list to store more than one value in a variable.
+
+
+'''
+
+
+myBool = True
+myString = "String"
+
+
+myInt = 3
+myFloat = 3.14
+
+myList = [myBool,myString,myInt,myFloat]
+print(myList)
+
+circle = "circle has a radius of 7"
+Shape = ["Triangle","Circle",circle,"Square"]
+print (Shape)
+
+
+colors = ["strawberry red", "peach pink", "sundownOrange"],
+print(colors)
+
+
+
+myFriends = ["jason","Tamary", "jonothan", "timmy"]
+print(myFriends)
+
+
+
+
+theaterSeatsTaken = [[01,True],[02,False],[03,False],[04,False]]
+
+theaterSeatsTaken = [[1.010,1.021][2.010,2.011]]
+
+theaterSeatsTaken = [True,False,False,True]
+
+
+
+JOIN THE ZOOM CALL AGAIN JUST FOR CLOSING REMARKS @rishi
+my2Darray = [1,2,3,4][5,6,7,8]
