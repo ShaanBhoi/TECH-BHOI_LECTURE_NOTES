@@ -1,0 +1,52 @@
+'''
+Each element in a list has its own position. We call this an index, it starts at 0. 
+
+in regular counting we start at 1, but for lists we start at 0
+1,2,3,4
+[0,1,2,3]
+one= 1
+two = 2
+three = 3
+four = 4
+
+mylist = [one,two,three,4]
+# in the following list the index of one is 0 but the index of two is 1
+print(mylist)
+
+## accessing the element at the index in the array
+print(mylist[0])
+
+## accessing elements using negative indexes
+print(mylist[-1])
+
+## accessing a range of elements in the list
+print(mylist[1:3])
+
+Example:
+What happens if you leave out the beginning or last value for accessing a range?
+
+What if we use a range of negative indexes??
+
+
+__ __
+Quiz 
+Complete the code below to print the value of the variable with the name three (we have two options)
+mylist = [one,two,three,4]
+print(mylist[__________])
+
+_____________________
+
+Wha tif we want to access some element of the list but do not know the index of where it is?
+we can write the name of the list with a dot (.) and the keyword index.
+Example
+
+indexOfThree = mylist.index(three)
+print(indexOfThree)
+
+__________
+Quiz
+What do we need to do to get the index of an element we dont know where it is placed in the list?
+
+
+
+
