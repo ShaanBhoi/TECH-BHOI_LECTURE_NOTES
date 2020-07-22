@@ -1,70 +1,24 @@
-############################
-##    List operations     ##
-############################
-'''
-Whenever we use lists in real life, we know that we can add or take things off of tht list. For example with the grocery listm on our way to the store we might have realized that we just ran out of milk, and we want to add that to our grocery list of eggs and bread. 
-'''
-groceries = ["eggs","bread"]
-groceries.append("milk")
-## listName.append(value)
-#wehenver we append, we do one element at a time, and it goes to the end of the list
-## our list now looks like [eggs,bread,milk]
+## lets see the completed grade calculator
 
-'''
-_____
+################
+## question 1 ##
+################
+## create a "groceries" list, that in the beginning stores no values. Add 10 items to the list an check if a value(as an input) is contained in the list. Print out an appropriate message using an if statment.
 
-What is the appropriate keyword to add an item to the list at the back?
+################
+## question 2 ##
+################
+## Expand the code from question 1 to take a user input yes/no to add the item that isnt in the list
 
-a)insert
-b)add
-c)toend
-d)append
+################
+## question 3 ##
+################
+## write a program that will give the largest and smallest numbers in a list that has more than 10 elements but less than or 20.
+## hint: use multiple conditions in an if statement and the len function
 
 
-how would you add the location USA to the following list?
-
-places = ["Canada", "England","United Kingdom"]
-
-_____._____(_____)
-______
-'''
-
-'''
-While we go across the aisles in the grocery store, we want to cross off items (remove) products from our list that we habe in our cart already. In python, this is represented by using the remove keyword (as seen below)
-'''
-places = ["Canada", "England","United Kingdom","USA"]
-
-places.remove("Canada")
-
-## now or list is ["England","United Kingdom","USA"]
-
-## Test this and see what happens if we have a list with multiple elements of the same value of the item to be removed
-
-
-'''
-Some other operations
-Size of a list:
-	len(listname)
-	This will return to us the number of elements in the list
-
-Smallest value in the list
-	min(listname)
-	This will return to us the smallest value in the list
-
-Largest value in the list
-	min(listname)
-	This will return to us the largest value in the list
-
-Existence
-	value in list
-	This will check whether a value exists in the list, will return a boolean 
-
-Merging lists (Concatenation):
-	list3 = list1 + list2
-	This will add the two lists together and store the "new" list in list3 without changing list1 & list2
-
-	
-
-'''
-
-
+################
+## question 4 ##
+################
+## write a program to delete a specific (element number as an input) from a list
+## elements start at 1 and not 0 

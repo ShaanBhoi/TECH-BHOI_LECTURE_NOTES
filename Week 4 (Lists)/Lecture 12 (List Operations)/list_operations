@@ -68,3 +68,96 @@ Merging lists (Concatenation):
 '''
 
 
+___________
+
+############################
+##    List operations     ##
+############################
+'''
+Whenever we use lists in real life, we know that we can add or take things off of tht list. For example with the grocery listm on our way to the store we might have realized that we just ran out of milk, and we want to add that to our grocery list of eggs and bread. 
+'''
+groceries = ["eggs", "bread"]
+##print(groceries)
+groceries.append("milk")
+##print(groceries)
+groceries.append("fruit")
+groceries.append("milk")
+##print(groceries)
+groceries.remove("bread")
+##print(groceries)
+## ['eggs', 'milk', 'milk', 'fruit']
+groceries.remove("milk")
+##print(groceries)
+## listName.append(value)
+#wehenver we append, we do one element at a time, and it goes to the end of the list
+## our list now looks like [eggs,bread,milk]
+'''
+_____
+
+What is the appropriate keyword to add an item to the list at the back?
+
+a)insert
+b)add
+c)toend
+d)append
+
+
+how would you add the location USA to the following list?
+
+places = ["Canada", "England","United Kingdom"]
+
+
+_____._____(_____)
+______
+'''
+'''
+While we go across the aisles in the grocery store, we want to cross off items (remove) products from our list that we habe in our cart already. In python, this is represented by using the remove keyword (as seen below)
+'''
+places = ["Canada", "England", "United Kingdom", "USA"]
+
+places.remove("Canada")
+
+## now or list is ["England","United Kingdom","USA"]
+
+## Test this and see what happens if we have a list with multiple elements of the same value of the item to be removed
+'''
+Some other operations
+Size of a list:
+	len(listname)
+	This will return to us the number of elements in the list
+
+Smallest value in the list
+	min(listname)
+	This will return to us the smallest value in the list
+
+Largest value in the list
+	max(listname)
+	This will return to us the largest value in the list
+
+Existence
+	value in list
+	This will check whether a value exists in the list, will return a boolean 
+
+Merging lists (Concatenation):
+	list3 = list1 + list2
+	This will add the two lists together and store the "new" list in list3 without changing list1 & list2
+
+	
+
+'''
+## length of groceries
+## print(len(groceries))
+
+nums1 = [5,3,4,2,1]
+
+print(min(nums1))
+print (max(nums1))
+print(min(nums1))
+chars = ["aa","ac","ab","ad","af"]
+print (max(chars))
+print(min(chars))
+
+nums1.sort()
+nums2 = [6,7,8,9]
+nums3= nums1+nums2+nums1
+print(nums3)
