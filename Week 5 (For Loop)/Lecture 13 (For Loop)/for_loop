@@ -41,7 +41,7 @@ QUIZ
 what is the appropriate keyword in order to print the members of my family?
 
 myFamily = ["mom","dad","brother","sister"]
-for member _____ in myFamily:
+for member _____ myFamily:
 	print(____)
 
 a) in,member
