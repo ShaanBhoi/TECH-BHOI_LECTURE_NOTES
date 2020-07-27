@@ -1,0 +1,53 @@
+##for_loop
+
+
+"""
+Being a programmer promotes the use of technology to do our mundane chores/tasks. Sometimes, we need to repeat a task (we call this looping) , this is where we will see how important the for loop is for doing the same thing again and again. Say you pack your schoolbag with some items (can be stored as a list). We put into our bag : homework, pencilcase, lunchbox, textbooks,computer. And when we get to our locker at school we want to take all those things out and put them in our locker for the day. 
+
+ENGLISH
+What we can say is that for every item in our bag, take out the item an put it into our locker.
+LOGIC
+for item in bag, remove and put in locker.
+PSEUDO CODE 
+locker = [] ## is empty originally
+bag = [hw,pencilcase,lunchbox,textbooks,computer]
+for item in bag:
+	locker.append(item)
+	bag.remove(item) 
+print bag 
+print locker 
+
+exercise, change the above code and run it to see what happens
+
+FOR LOOP (FORMALIZED)
+
+1. Write the keyword for to indicate the start of a for loop. 
+2. Declare the name of the looping variable
+3. write the keyword in to show where to loop 
+4. write the name of a list of which we want to loop through, then put a colon :
+5. using the appropriate indentation, indicate what steps are to be taken while executing the for loop 
+
+
+for loopVariable in listName:
+	doThis
+	...
+	doThisToo
+DoThisAfterForLoop
+
+__ 
+
+QUIZ
+
+what is the appropriate keyword in order to print the members of my family?
+
+myFamily = ["mom","dad","brother","sister"]
+for member _____ in myFamily:
+	print(____)
+
+a) in,member
+b) for,item
+c) item,in 
+d) in,member 
+
+
+"""
