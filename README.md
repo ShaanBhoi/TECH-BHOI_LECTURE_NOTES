@@ -12,7 +12,7 @@ I am testing/teaching this course with [ZOOM.](https://www.zoominfo.com)
 The online IDE is supported by [REPL.](https://repl.it/~)
 
 For this course, I haave even started my own company to teach this, creating a website with the help of googles small business services.
-For the company (TECH Bhoi) i have created a twitter account, linkedin company page, and an email.
+For the company (TECH Bhoi) i have created a [twitter](https://twitter.com/TechBhoi) account, [linkedin](https://www.linkedin.com/company/tech-bhoi) company page,an [email](techbhoi@gmail.com), a company [website](https://tech-bhoi.business.site), and a github generated project [website](https://shaanbhoi.github.io/TECH-BHOI_LECTURE_NOTES/).
 ## Direct link to REPL Enviroment & ZOOM
 I am testing the effectiveness of my course, by teaching the course to my cousins mon-thurs at 11am.
 As of Jul 30, we have finished the first 5 weeks of the course, [see]() page 3 for full syllabus info.
@@ -34,12 +34,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## License
 [MIT](https://github.com/ShaanBhoi/TECH-BHOI_LECTURE_NOTES/blob/master/LICENSE)
 
-## TECH Bhoi company info
-[TECH BHOI website](https://tech-bhoi.business.site)
-
-[TECH BHOI email](techbhoi@gmail.com)
-
-[TECH BHOI linkedin](https://www.linkedin.com/company/tech-bhoi)
-
-[twitter](https://twitter.com/TechBhoi)
 
