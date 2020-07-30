@@ -1,0 +1,168 @@
+## codeRun05.py
+
+def summaryOfSections05():
+	print("\n----------\nLECTURE 05\n----------\n")
+
+def sectionUserInput():
+
+	text = '''
+WHAT IS USER INPUT
+
+A realworld example of taking user input, is whenever we log into zoom/REPL, we need to input our username and password.
+Can you think of any real world examples that can be related to user input?
+
+HOW TO TAKE AN INPUT
+
+In python; it is very simple to get input from a user, all we need to do is call the input() function.
+This will be used to take information from the user via the terminal.
+When using the input function, we can add information on what we want from the user by putting a string inside the function.
+
+Ex:    input("what is your name : ")
+
+Whenever we take an input, it is always taken as a str
+by default, but we can force this to be a different type using the type conversion functions seen last class
+
+how to take user input
+input("your question here : ")
+
+how to store a users answer into a variable 
+userName = input("What is your name ? : ")
+print(userName)
+
+type conversion
+myAge = int(input("What is your age? : "))
+
+to use a float or int if we are unsure of a numeric input? Why?
+we always want to use a float, becasue if we are unsure, it can handle both ints and floats. thus it is more powerful.
+
+
+	'''
+	print(text)
+	return text
+def quiz05Question1():
+	text = '''
+1. How to show output (in the terminal) from a program (written in the text editor)?
+
+a) Print() 
+b) output()
+c) print()
+
+	'''
+	print(text)
+	return text
+
+def quiz05Question2():
+	text = '''
+2. Which variable stores a string value
+
+a) fruit = 'strawberry'
+b) weight = 678
+c) is_winter = false
+
+	'''
+	print(text)
+	return text
+def quiz05Question3():
+	text = '''
+3. What is the expected output of the following program?
+
+myNum = 5
+myNum = myNum + myNum
+print(myNum)
+
+a) 5 
+b) 10
+c) myNum
+
+	'''
+	print(text)
+	return text
+def quiz05Question4():
+	text = '''
+4.What would be the output of the following program?
+
+cop = 'Paul Blart'
+Cop = "Paul Blart"
+cop = "Jason Statham"
+print(cop)
+
+a) Paul Blart 
+b) Jason Statham
+c) cop
+
+	'''
+	print(text)
+	return text
+
+def quiz05Question5():
+	text = '''
+5. If it is over 30 degrees today, then it is too hot. What is the boolean value to complete the variable 
+
+tooHot = _______
+
+a) yes
+b) true
+c) True
+
+	'''
+	print(text)
+	return text
+
+def quiz05Question6():
+	text = '''
+6. Which of the following is not a numeric data type variable?
+
+a) myAge = 15
+b) tooHot = False
+c) myTime = 11.30
+
+	'''
+	print(text)
+	return text
+
+def userInputQuiz01():
+	quiz05Question1()
+	userInput = input("What is your answer? : ")
+	if userInput.lower().strip() != "c":
+		userInputQuiz01()
+def userInputQuiz02():
+	quiz05Question2()
+	userInput = input("What is your answer? : ")
+	if userInput.lower().strip() != "a":
+		userInputQuiz02()
+def userInputQuiz03():
+	quiz05Question3()
+	userInput = input("What is your answer? : ")
+	if userInput.lower().strip() != "b":
+		userInputQuiz03()
+def userInputQuiz04():
+	quiz05Question4()
+	userInput = input("What is your answer? : ")
+	if userInput.lower().strip() != "b":
+		userInputQuiz04()
+def userInputQuiz05():
+	quiz05Question5()
+	userInput = input("What is your answer? : ")
+	if userInput.lower().strip() != "c":
+		userInputQuiz05()
+def userInputQuiz06():
+	quiz05Question6()
+	userInput = input("What is your answer? : ")
+	if userInput.lower().strip() != "b":
+		userInputQuiz06()
+
+def runLec05():
+	summaryOfSections05()
+	sectionUserInput()
+	sectionUserInput()
+	userInputQuiz01()
+	userInputQuiz02()
+	userInputQuiz03()
+	userInputQuiz04()
+	userInputQuiz05()
+	userInputQuiz06()
+
+	print("***** LECTURE 05 COMPLETE *****")
+runLec05()
+
+
