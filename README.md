@@ -14,11 +14,11 @@ The online IDE is supported by REPL.
 For this course, I haave even started my own company to teach this, creating a website with the help of googles small business services.
 For the compnay (TECH Bhoi) i have created a twitter account, linkedin company page, and an email.
 
-## Link to the canva webservice
-[CANVA](https://www.canva.com)
-
 ## Direct link to REPL class notes:
 [REPL](https://repl.it/join/duppvtxj-techbhoi)
+
+## Link to the canva webservice
+[CANVA](https://www.canva.com)
 
 ## Textbook
 The textbook as created for the first 4 weeks can be found [here](https://drive.google.com/drive/u/0/my-drive)
