@@ -1,0 +1,50 @@
+## codeRun06.py
+
+def summaryOfSections06():
+	print("\n----------\nLECTURE 06\n----------\n")
+
+
+def sectionMathOPS():
+	text = '''
+Programming and mathematics go together like peanut butter and jelly, most of the time they come smashed together.
+Many of the skills needed in math, can be found all over programming. The most important is having good problem solving skills, critical thinking skills, and attention to detail.
+
+All of the math operations we have learnt in grade school are found in even the most complicated of programs!
+
+Common Math Operations:
+
+Addition:
+3 + 4 = 7 
+Subtraction:
+4 + 3 = 1
+Multiplication:
+3 * 4 = 12
+Division:
+2 / 4 = 0.5 
+
+New Math operations:
+
+Floor Division:
+4 // 3 = 1
+Rounding down after regular division
+Modulo:
+7 % 3 = 1
+Calculating remainder of division
+Exponents:
+3 ** 4 = 81
+Multiplying by a factor of itself
+
+
+
+	'''
+
+	print(text)
+	return text
+
+
+
+def runLec06():
+	summaryOfSections06()
+	sectionMathOPS()
+	print("***** LECTURE 06 COMPLETE *****")
+runLec06()
