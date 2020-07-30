@@ -14,8 +14,17 @@ The online IDE is supported by REPL.
 For this course, I haave even started my own company to teach this, creating a website with the help of googles small business services.
 For the compnay (TECH Bhoi) i have created a twitter account, linkedin company page, and an email.
 
-## Direct link to REPL class notes:
+## Direct link to REPL Enviroment & ZOOM
+I am testing the effectiveness of my course, by teaching the course to my cousins mon-thurs at 11am.
+As of Jul 30, we have finished the first 5 weeks of the course, [see]() page 3 for full syllabus info.
+
 [REPL](https://repl.it/join/duppvtxj-techbhoi)
+[ZOOM](https://us04web.zoom.us/j/3851612429?pwd=ZEJsRDZKQUxZbHZkTlp5NjE5VXlTZz09)
+
+ZOOM INFO:
+Meeting ID: 385 161 2429
+Passcode: 8-Week
+
 
 ## Link to the canva webservice
 [CANVA](https://www.canva.com)
