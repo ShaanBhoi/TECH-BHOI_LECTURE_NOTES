@@ -19,6 +19,7 @@ I am testing the effectiveness of my course, by teaching the course to my cousin
 As of Jul 30, we have finished the first 5 weeks of the course, [see]() page 3 for full syllabus info.
 
 [REPL](https://repl.it/join/duppvtxj-techbhoi)
+
 [ZOOM](https://us04web.zoom.us/j/3851612429?pwd=ZEJsRDZKQUxZbHZkTlp5NjE5VXlTZz09)
 
 ZOOM INFO:
