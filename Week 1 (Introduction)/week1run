@@ -1,0 +1,99 @@
+## week1Run.py
+
+
+
+
+## Lecture_00
+
+def summaryOfSections00():
+	print("\n----------\nLECTURE 00\n----------\n")
+	
+	
+	##print("--PYTHON--")
+	##print("--PROBLEM SOLVING--")
+
+def sectionPython():
+	print("--PYTHON--")
+	text = "Python is one of the best programming languages to learn, it is ranked as the top most commnly used programming language.\nIt is very useful to learn for beginner coders, because the language itself has a syntax and readability almost like in English.\nIt is a popular programming language for machine learning and deep learning applications.\nThis language is quick to implement ideas with simple code.\n"
+	print(text)
+	return text
+
+def sectionPS():
+
+	print("--PROBLEM SOLVING--")
+	text = "The goal of this course is to teach you how to think like a computer scientist, and understand the foundations of how to code (in many popular languages).\nProblem solving is the ability to formulate problems, think creatively about solutions, and express a solution accurately and efficiently.\nAs it turns out, the process of learning how to program is an excellent opportunity to practice problem solving skills.\n"
+	print(text)
+	return text
+
+def runLec00():
+	summaryOfSections00()
+	sectionPython()
+	sectionPS()
+	print("***** LECTURE 00 COMPLETE *****")
+
+
+
+## codeRun01
+
+def summaryOfSections01():
+	print("\n----------\nLECTURE 01\n----------\n")
+	
+def sectionOutput():
+	print("--OUTPUT--")
+	text = "Whenever we use an app or website, we expect it to do something when we click/tap.\nThis is an example of what we call an output.\nIt shows back to us something useful whenever we do an action.\nIn python, we show outputs by using the print function as follows:\n\tprint(what we want to see)\nAnother example of an output is when we search something in google.com, we expect to see some search results, these results are called outputs.\n"
+	print(text)
+	return text
+
+def quizQuestion():
+	print("What do you need to use to show an output?")
+	print("a) print()")
+	print("b) printing()")
+	print("c) print it now()")
+def outputQuiz():
+	quizQuestion()
+	count = 0 
+	userInput = input("What is your answer? : ")
+	if userInput.lower().strip() != "a":
+		outputQuiz()
+def runLec01():
+
+	summaryOfSections01()
+	sectionOutput()
+	outputQuiz()
+	print("***** LECTURE 01 COMPLETE *****")
+	
+
+##codeRun02
+
+def summaryOfSections02():
+	print("\n----------\nLECTURE 02\n----------\n")
+
+def sectionVariables():
+	text = "A variable is used to store a piece of information that we want to reuse throughout our programs.\nA real world example of this is like your Facebook  photo, we can change it or have it store nothing.\nSimilarly the number of likes on Facebook this is a variable that stores the information of how many people like youre new picture, this can also change or vary over time.\n\nDISCUSSION:\nIdentify some things around you that can change/vary over time.\nThree parts:\n1) A name\n2) An equal sign (=)\n3) A value\n\t\tTHINK OF A CONTAINER\n"
+
+	print(text)
+	return text
+def quiz02Question():
+	print("Can you predict the output for the following code below?")
+	print("likes = 43\nlikes = 71\nLikes = 38\nprint(likes)\n")
+	print("a)43\nb)71\nc)38\nd)likes\n")
+def variablesQuiz():
+	quiz02Question()
+	userInput = input("What is your answer? : ")
+	if userInput.lower().strip() != "b":
+		variablesQuiz()
+def runLec02():
+	summaryOfSections02()
+	sectionVariables()
+	variablesQuiz()
+	print("***** LECTURE 02 COMPLETE *****")
+	
+
+def week1Run():
+	runLec00()
+	runLec01()
+	runLec02()
+
+	print("\n*************************\n***** WEEK COMPLETE *****\n*************************\n")
+week1Run()
+
