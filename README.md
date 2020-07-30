@@ -7,13 +7,12 @@ For the purposes of the course, it will be limited to the first 4 weeks.
 
 I will be continuing to work on it in order to add all of the components listed in the course package. Due to time constraints of the course, i am unable to complete the full course for the term end date. This is my first large scale personal project.
 
-The textbook has been created with the help of the online service canva.
-I am testing/teaching this course with ZOOM.
-The online IDE is supported by REPL.
+The textbook has been created with the help of the online service [CANVA.](https://www.canva.com)
+I am testing/teaching this course with [ZOOM.](https://www.zoominfo.com)
+The online IDE is supported by [REPL.](https://repl.it/~)
 
 For this course, I haave even started my own company to teach this, creating a website with the help of googles small business services.
-For the compnay (TECH Bhoi) i have created a twitter account, linkedin company page, and an email.
-
+For the company (TECH Bhoi) i have created a twitter account, linkedin company page, and an email.
 ## Direct link to REPL Enviroment & ZOOM
 I am testing the effectiveness of my course, by teaching the course to my cousins mon-thurs at 11am.
 As of Jul 30, we have finished the first 5 weeks of the course, [see]() page 3 for full syllabus info.
@@ -26,11 +25,7 @@ ZOOM INFO:
 Meeting ID: 385 161 2429
 Passcode: 8-Week
 
-
-## Link to the canva webservice
-[CANVA](https://www.canva.com)
-
-## Textbook
+## Course Textbook
 The textbook as created for the first 4 weeks can be found [here](https://drive.google.com/drive/u/0/my-drive)
 
 ## Contributing
@@ -40,11 +35,11 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 [MIT](https://github.com/ShaanBhoi/TECH-BHOI_LECTURE_NOTES/blob/master/LICENSE)
 
 ## TECH Bhoi company info
-[website](https://tech-bhoi.business.site)
+[TECH BHOI website](https://tech-bhoi.business.site)
 
-[email](techbhoi@gmail.com)
+[TECH BHOI email](techbhoi@gmail.com)
 
-[linkedin](https://www.linkedin.com/company/tech-bhoi)
+[TECH BHOI linkedin](https://www.linkedin.com/company/tech-bhoi)
 
 [twitter](https://twitter.com/TechBhoi)
 
