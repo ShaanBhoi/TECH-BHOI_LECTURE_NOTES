@@ -23,8 +23,11 @@ The textbook as created for the first 4 weeks can be found [here](https://drive.
 
 
 ## TECH Bhoi company info
-[website] (https://tech-bhoi.business.site)
-[email] (techbhoi@gmail.com)
-[linkedin] (https://www.linkedin.com/company/tech-bhoi)
-[twitter] (https://twitter.com/TechBhoi)
+[website](https://tech-bhoi.business.site)
+
+[email](techbhoi@gmail.com)
+
+[linkedin](https://www.linkedin.com/company/tech-bhoi)
+
+[twitter](https://twitter.com/TechBhoi)
 
