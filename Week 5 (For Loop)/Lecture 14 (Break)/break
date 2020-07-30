@@ -1,0 +1,79 @@
+'''
+## PROMOTE , TIME, CHASEBANK
+myList = ["PROMOTE" , "TIME", "CHASEBANK",7]
+for word in myList:
+	print("I need to remeber" , word ,"for my test")
+'''
+'''
+## break
+
+What if we have a condition inside a for loop?
+As we write multiple lines indented within the for loop block, we can also write in conditions.
+
+
+nums = [101,102,2,3,403]
+for num in nums:
+	if num>100:
+		print(num)
+
+
+break
+
+Just like most machines we usetoday, there is always a way to stop what is happenning. In this case, we want to stop the for loop from looping, and the way we do this is with the keyword break. We can put this code anywhere within the block of code executed within the for loop, and it will exit the for loop, and continue with the rest of the program (whatever code is outside the indentation level of the for loop)
+
+nums = [101,102,2,3,403]
+for num in nums:
+	if num>100:
+		break
+	print(num)
+
+
+
+_____
+
+QUIZ 
+
+fill in the blanks to get the following block of code to break when the hero becomes Thanos
+
+heroes = ["spiderman","batman","thanos","ironman",]
+
+for hero in heroes:
+	if hero == "thanos"
+		_____
+
+print(____)
+
+a) heroes , thanos
+b) break , heroes	
+c) break , hero
+d) hero , thanos
+'''
+'''
+nums = [101,102,2,3,403,100]
+for num in nums:
+	if num>100: 
+	print(num)
+	break 
+
+'''
+'''
+products = ["laptop","iphone","mouse","keyboard","monitor","snacks "]
+
+for i in products:
+	print(i)
+	if i == "monitor":
+		print ("i defs need a new ",i)
+		break
+
+		'''
+
+heroes = ["spiderman","batman","thanos","ironman",]
+
+for hero in heroes:
+	if hero == "thanos":
+		break
+	if hero != "thanos":
+		print(hero," is a hero")
+print(hero, "is a bad guy")
+		
+

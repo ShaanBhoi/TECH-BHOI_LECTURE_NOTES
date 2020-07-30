@@ -1,0 +1,130 @@
+##continue.py
+
+##Sometimes when we are coding, we might want to avoid something from happenning with a data type in a for loop. An example of this is to say we had a list of friends, and there is a friend who we are in a fight with, and we want to avoid them. If we are printing the names of our friends in the terminal, we want to skip this person from being shown, but continue to show all the other friends.
+
+##Skip iteration
+
+##We can skip an element in the for loop by using the keyword continue. It will skip over the current element and change to the element to the right, and continue on with the logic of the for loop.
+##The following example will skip the even numbers
+
+nums =[1,22,35,-21,45,16,18]
+for num in nums:
+	if num%2==0:
+		continue
+	print(num)
+
+##Another example
+##The following code will skip the negative numbers
+
+for num in nums:
+	if num<0:
+		continue
+	print(num)
+
+
+##Quiz
+##Write the appropriate information below to only output the odd positive numbers
+
+nums =[1,22,35,-21,45,16,18]
+for __ in __:
+	if (____):
+		__________
+	print(_____)
+
+
+## answer
+nums =[1,22,35,-21,45,16,18]
+for num in nums:
+	if num<0:
+		continue
+	print(num)
+
+
+
+
+
+##__________
+## slip iteration 
+''' 
+myFriends = ["Ryan","Thomas","Tommy","Max","Tim"]
+
+for i in myFriends:
+
+	if i == "Tommy":
+		continue
+	print(i,"is my homie")
+
+''' 
+''' 
+myNums = [1,-2,4,7,65,2,-4]
+
+for i in myNums:
+	if i%2!=0:
+		continue
+	print(i, "is an even number")
+''' 
+
+''' 
+myNums = [1,-3,-7,-56,34,56,8,765,-2,4,7,65,2,-4]
+
+for i in myNums:
+	if i>0:
+		continue
+	print(i, "is a negative number")
+''' 
+
+'''
+myNums = [1,-3,-7,-56,34,56,8,765,-2,4,7,65,2,-4]
+for i in myNums:
+	if (i>0) or ((i%2) != 0):
+		continue
+	print(i,"is a negative and even number")
+'''
+
+
+''' 
+myNums = [1,-3,-7,-56,34,56,8,765,-2,4,7,65,2,-4]
+
+for i in myNums: 
+	if i%2==0 or i<0:
+		continue
+	print(i,"is a odd and positive number")
+
+''' 
+
+
+''' 
+list = [1,-3,-7,-56,34,56,8,765,-2,4,7,65,2,-4]
+print(list)
+
+for iter_num in range(len(list)-1,0,-1):
+	
+        for idx in range(iter_num):
+
+            if list[idx]>list[idx+1]:
+
+                temp = list[idx]
+                list[idx] = list[idx+1]
+                list[idx+1] = temp
+
+print(list)
+''' 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

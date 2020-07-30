@@ -1,0 +1,33 @@
+## Lecture_00
+
+def summaryOfSections():
+	print("\n----------\nLECTURE 00\n----------\n")
+	print("--PYTHON--")
+	print("--PROBLEM SOLVING--")
+
+def sectionPython():
+	print("--PYTHON--")
+	text = "Python is one of the best programming languages to learn, it is ranked as the top most commnly used programming language. It is very useful to learn for beginner coders, because the language itself has a syntax and readability almost like in English. It is a popular programming language for machine learning and deep learning applications. This language is quick to implement ideas with simple code."
+
+	return text
+
+def sectionPS():
+
+	print("--PROBLEM SOLVING--")
+	text = "The goal of this course is to teach you how to think like a computer scientist, and understand the foundations of how to code (in many popular languages).Problem solving is the ability to formulate problems, think creatively about solutions, and express a solution accurately and efficiently. As it turns out, the process of learning how to program is an excellent opportunity to practice problem solving skills."
+	print(text)
+
+def runLec01():
+
+	user_input= input("What section do you want to see?: ")
+
+	if user_input == "python":
+		sectionPython()
+
+	elif user_input == "problem solving":
+		sectionPS()
+
+	elif user_input == "finish":
+		print("INVALID INPUT\nEnter finish if you want to end this session")
+		runLec01()
+
