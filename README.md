@@ -16,8 +16,10 @@ For the compnay (TECH Bhoi) i have created a twitter account, linkedin company p
 
 ## Link to the canva webservice
 [CANVA](https://www.canva.com)
+
 ## Direct link to REPL class notes:
 [REPL](https://repl.it/join/duppvtxj-techbhoi)
+
 ## Textbook
 The textbook as created for the first 4 weeks can be found [here](https://drive.google.com/drive/u/0/my-drive)
 
@@ -26,6 +28,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## License
 [MIT](https://github.com/ShaanBhoi/TECH-BHOI_LECTURE_NOTES/blob/master/LICENSE)
+
 ## TECH Bhoi company info
 [website](https://tech-bhoi.business.site)
 
