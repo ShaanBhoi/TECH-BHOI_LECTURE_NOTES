@@ -1,0 +1,180 @@
+##codeRun04
+
+def summaryOfSections04():
+	print("\n----------\nLECTURE 04\n----------\n")
+
+def sectionDataTypes():
+	text = '''
+Integer:
+If you have a whole/natural/integer  number (ie: not a fraction, no decimal point) then we call this an integer, represented with int in python.
+
+Ex: 15,12,450,67234
+
+Float:
+If you have a number that is a fraction or it has a decimal place, we call these numbers floats, represented with float in python.
+
+Ex: 3.1459, 10.0, 789.204575
+
+
+Boolean:
+We use the boolean values to store into variables in python, we have the possibilities of storing the value True or False.
+
+Ex: pythonIsCool = True 
+
+String:
+When the value of a variable contains text (one or more characters), we call this a string, represented with str in python. We always put single/double quotes around a string.
+
+Ex: "I love my mom"
+
+
+When using boolean values, we never use quotes, because they are special  keywords
+
+
+
+
+
+We can force the data type of variables using their respective names that we want to force with brackets around what we want to change.
+
+Ex:
+myAge = 10 
+floatMyAge = float(myAge)
+print(myAge)
+print(FloatMyAge)
+
+>> 10
+>> 10.0
+	'''
+
+	print(text)
+	return(text)
+
+
+
+def quiz04Question01():
+	text  = '''
+
+1. Set an integer as the value of x
+
+x = ________
+type(x)
+
+a) 3.4
+b) 5.67
+c) 832749834
+
+''' 
+	print(text)
+
+def  quiz04Question02():
+	text = '''
+
+2. Set a float as the value of y
+
+x = ________
+type(y)
+
+a) 3
+b) 5.67
+c) 832749834
+
+'''
+
+	print(text)
+	return text
+
+def quiz04Question03():
+
+	text = '''
+
+3. What is it called when a variable value is a number?
+
+a) Integer type
+b) Float type
+c) Numeric type
+
+
+	'''
+	print(text)
+	return text
+
+def quiz04Question04():
+
+	text = '''
+
+4. What is missing to set a string as a value of the friend variable?
+
+friend = "Usain Bolt ___
+print(friend)
+a) "
+b) ;
+c) '
+
+	'''
+	print(text)
+	return text
+
+
+def quiz04Question05():
+
+	text = '''
+5. What is the correct string?
+
+a) movie = 'Inception"
+b) movie = "The Great Gatsby
+c) movie = 'Napolean Dynamite'
+
+	'''
+	print(text)
+	return text
+
+
+
+
+def dataTypeQuiz01():
+	quiz04Question01()
+	userInput = input("What is your answer? : ")
+	if userInput.lower().strip() != "c":
+		dataTypeQuiz01()
+
+def dataTypeQuiz02():
+	quiz04Question02()
+	userInput = input("What is your answer? : ")
+	if userInput.lower().strip() != "b":
+		dataTypeQuiz02()
+
+def dataTypeQuiz03():
+	quiz04Question03()
+	userInput = input("What is your answer? : ")
+	if userInput.lower().strip() != "c":
+		dataTypeQuiz03()
+
+def dataTypeQuiz04():
+	quiz04Question04()
+	userInput = input("What is your answer? : ")
+	if userInput.lower().strip() != "a":
+		dataTypeQuiz04()
+
+
+def dataTypeQuiz05():
+	quiz04Question05()
+	userInput = input("What is your answer? : ")
+	if userInput.lower().strip() != "c":
+		dataTypeQuiz05()
+
+
+def runLec04():
+	summaryOfSections04()
+	sectionDataTypes()
+	dataTypeQuiz01()
+	dataTypeQuiz02()
+	dataTypeQuiz03()
+	dataTypeQuiz04()
+	dataTypeQuiz05()
+
+	print("***** LECTURE 04 COMPLETE *****")
+runLec04()
+
+
+
+
+
