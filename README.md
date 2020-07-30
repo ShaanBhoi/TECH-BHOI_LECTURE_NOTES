@@ -21,7 +21,11 @@ For the compnay (TECH Bhoi) i have created a twitter account, linkedin company p
 ## Textbook
 The textbook as created for the first 4 weeks can be found [here](https://drive.google.com/drive/u/0/my-drive)
 
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
+## License
+[MIT](https://github.com/ShaanBhoi/TECH-BHOI_LECTURE_NOTES/blob/master/LICENSE)
 ## TECH Bhoi company info
 [website](https://tech-bhoi.business.site)
 
