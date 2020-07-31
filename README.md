@@ -15,7 +15,7 @@ For this course, I haave even started my own company to teach this, creating a w
 For the company (TECH Bhoi) i have created a [twitter](https://twitter.com/TechBhoi) account, [linkedin](https://www.linkedin.com/company/tech-bhoi) company page,an [email](techbhoi@gmail.com)(techbhoi@gmail.com), a company [website](https://tech-bhoi.business.site), and a github generated project [website](https://shaanbhoi.github.io/TECH-BHOI_LECTURE_NOTES/).
 ## Direct link to REPL Enviroment & ZOOM
 I am testing the effectiveness of my course, by teaching the course to my cousins mon-thurs at 11am.
-As of Jul 30, we have finished the first 5 weeks of the course, [see]() page 3 for full syllabus info.
+As of Jul 30, we have finished the first 5 weeks of the course, [see](https://repl.it/@TechBhoi/TECHBHOILECTURENOTES#TECHBHOI_TEXTBOOK.pdf) page 2 for full syllabus info.
 
 [REPL](https://repl.it/join/duppvtxj-techbhoi)
 
@@ -25,8 +25,26 @@ ZOOM INFO:
 Meeting ID: 385 161 2429
 Passcode: 8-Week
 
-## Course Textbook
-The textbook as created for the first 4 weeks can be found [here](https://drive.google.com/drive/u/0/my-drive)
+## BUILD
+To see the first 4 weeks of the course interactive, navigate [here](https://repl.it/@TechBhoi/TECHBHOILECTURENOTES#main.py) and then hit run 
+
+Since i am currently using this REPL repo to teach the course to my little cousins, sometimes the main may be filled with other stuff..Thendo the following:
+1. navigate[here](https://repl.it/@TechBhoi/TECHBHOILECTURENOTES#WEEKS%20(COMPLETED)/runFirstHalf)
+  copy all the code from the text editor
+2. Navigate [here](https://repl.it/@TechBhoi/TECHBHOILECTURENOTES#main.py)
+  paste in all the code into the text editor, and hit run.
+  
+  
+The textbook as created for the first 4 weeks can be found [here](https://repl.it/@TechBhoi/TECHBHOILECTURENOTES#TECHBHOI_TEXTBOOK.pdf)
+
+The exercises for each week in the textbook can be found with the answers:
+[WEEK1](https://repl.it/@TechBhoi/TECHBHOILECTURENOTES#WEEKS%20(COMPLETED)/Week%201%20(Introduction)/Tutorial%2001)
+[WEEK2](https://repl.it/@TechBhoi/TECHBHOILECTURENOTES#WEEKS%20(COMPLETED)/Week%202%20(Basic%20Syntax)/Tutorial%2002)
+[WEEK3](https://repl.it/@TechBhoi/TECHBHOILECTURENOTES#WEEKS%20(COMPLETED)/Week%203%20(Decision%20Making)/Tutorial%2003)
+[WEEK4](https://repl.it/@TechBhoi/TECHBHOILECTURENOTES#WEEKS%20(COMPLETED)/Week%204%20(Lists)/Tutorial%2004)
+
+## THIS PROJECT IS STILL A WORK IN PROGRESS...
+All future sections will follow the format seen [here](https://repl.it/@TechBhoi/TECHBHOILECTURENOTES#WEEKS%20(IN-PROGRESS)/Week%20##%20(Name)/codeRun##.py)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
