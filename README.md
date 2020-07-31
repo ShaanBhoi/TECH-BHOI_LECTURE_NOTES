@@ -46,6 +46,9 @@ The exercises for each week in the textbook can be found with the answers:
 ## THIS PROJECT IS STILL A WORK IN PROGRESS...
 All future sections will follow the format seen [here](https://repl.it/@TechBhoi/TECHBHOILECTURENOTES#WEEKS%20(IN-PROGRESS)/Week%20##%20(Name)/codeRun##.py)
 
+The architecture used for this project is a multi layered approch, thus it is divided into weeks, then into lectures, and then contains all files for each lecture.
+
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
