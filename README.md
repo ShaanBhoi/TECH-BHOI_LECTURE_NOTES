@@ -30,6 +30,12 @@ Passcode: 8-Week
 ## BUILD
 To see the first 4 weeks of the course interactive, navigate [here](https://repl.it/@TechBhoi/TECHBHOILECTURENOTES#main.py) and then hit run 
 
+To run this locally, download the zip of the archive, open a terminal at the top level of the folder, and run the command 
+'''
+python runFirstHalf.py
+'''
+
+
 Since i am currently using this REPL repo to teach the course to my little cousins, sometimes the main may be filled with other stuff..Thendo the following:
 1. navigate[here](https://repl.it/@TechBhoi/TECHBHOILECTURENOTES#WEEKS%20(COMPLETED)/runFirstHalf)
   copy all the code from the text editor
