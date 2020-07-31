@@ -13,6 +13,8 @@ The online IDE is supported by [REPL.](https://repl.it/~)
 
 For this course, I haave even started my own company to teach this, creating a website with the help of googles small business services.
 For the company (TECH Bhoi) i have created a [twitter](https://twitter.com/TechBhoi) account, [linkedin](https://www.linkedin.com/company/tech-bhoi) company page,an [email](techbhoi@gmail.com)(techbhoi@gmail.com), a company [website](https://tech-bhoi.business.site), and a github generated project [website](https://shaanbhoi.github.io/TECH-BHOI_LECTURE_NOTES/).
+
+AS OF 3AM FRIDAY JUL 31, THE GITHUB REPO IS 5 COMMITS BEHIND, I HAVE SURPASSED THE MAXIMUM SIZE LIMIT FOR GITHUB TO HOST THE FILE, ALTHOUGH IT CAN ALL BE VIEWED ON [REPL HERE](https://repl.it/@TechBhoi/TECHBHOILECTURENOTES#WEEKS%20(COMPLETED)/runFirstHalf) 
 ## Direct link to REPL Enviroment & ZOOM
 I am testing the effectiveness of my course, by teaching the course to my cousins mon-thurs at 11am.
 As of Jul 30, we have finished the first 5 weeks of the course, [see](https://repl.it/@TechBhoi/TECHBHOILECTURENOTES#TECHBHOI_TEXTBOOK.pdf) page 2 for full syllabus info.
